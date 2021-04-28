@@ -2,7 +2,7 @@ var button = document.getElementById("enter");
 var random = (Math.ceil(Math.random()* 10));
 var answer = document.getElementById("userInput");
 
-console.log(random);
+console.log(random + "I know the answer is visible in console.");
 
 	function randomNumber(){
 	if (answer.value > 10) {
@@ -18,12 +18,5 @@ console.log(random);
 }
 }
 
-function outOfRange() {
-	if (answer.value > 10) {
-		alert("Your answer is too high!")
-	} else if (answer.value < 1){
-		alert("Your answer is too low!")
-	}
-}
 
 button.addEventListener('click', randomNumber,)
