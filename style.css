@@ -1,0 +1,58 @@
+html,
+body{
+	overflow:hidden;
+	margin:0;
+	background-color:#142E54;
+}
+
+.container{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#4C668C;
+	flex-direction:column;
+}
+
+h1{
+	margin:1rem;
+	text-align:center;
+	font-size:3em;
+}
+
+#userInput {
+	text-align:center;
+	animation-delay:0.75s;
+}
+
+#enter {
+	text-align: center; 
+	margin:1em;
+	padding: 20px;
+	border: none;
+	border-radius:40%;
+	animation-delay:0.75s;
+}
+#picture{
+	background-image: url(#imageResult) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-size: 100% 100%; 
+   height:100vh;
+}
+
+#result {
+	margin:0;
+	animation-delay:1.25s;
+}
+
+button {
+	transition-duration: 0.4s;
+	box-shadow: 0 3px 3px 0 black;
+}
+
+button:hover{
+	background-color:white;
+	cursor:pointer;
+}
